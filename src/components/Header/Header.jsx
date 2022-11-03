@@ -1,29 +1,30 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
+import  Logo  from "../../assests/images/logo2.png";
 import "./header.css";
 
 const navLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/",
   },
   {
     display: "About",
-    url: "#",
+    url: "/about-us",
   },
 
   {
-    display: "Courses",
-    url: "#",
+    display: "Contact Us",
+    url: "/contact-us",
   },
-  {
+  /* {
     display: "Pages",
     url: "#",
   },
   {
     display: "Blog",
     url: "#",
-  },
+  }, */
 ];
 
 const Header = () => {
@@ -36,9 +37,10 @@ const Header = () => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
+            <img src={Logo} alt="logo" className="logo"  />
+            {/* <h2 className=" d-flex align-items-center gap-1">
               <i class="ri-pantone-line"></i> Learners.
-            </h2>
+            </h2> */}
           </div>
 
           <div className="nav d-flex align-items-center gap-5">

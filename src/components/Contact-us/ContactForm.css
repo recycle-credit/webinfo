@@ -1,0 +1,43 @@
+.FormStyle {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+label {
+    font-size: 1.8rem;
+    color: #003227;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.2rem;
+    color: #fff;
+    background-color: #c0c0c0;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+
+  textarea {
+    min-height: 250px;
+    resize: vertical;
+  }
+
+  button[type='submit'] {
+    background-color: #004e3f;
+    color: #ffffff;
+    font-size: 2rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }

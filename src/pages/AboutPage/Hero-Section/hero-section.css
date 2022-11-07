@@ -1,0 +1,17 @@
+.Con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.hero__content h1 {
+  margin-top: 7rem;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 55px;
+  
+}
+
+
+.hero__content {
+  padding-top: 80px;
+}

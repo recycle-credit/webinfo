@@ -1,6 +1,8 @@
 .hero__content h2 {
-  font-weight: 600;
+  font-weight: 700;
   line-height: 55px;
+  font-size: 3.2rem;
+  margin-top: -2.5rem;
 }
 
 .hero__content {
@@ -20,4 +22,12 @@
   align-items: center;
   border-radius: 50px;
   margin-top: 20px;
+}
+
+.apple{
+  cursor: pointer;
+}
+.google{
+  cursor: pointer;
+  margin-left: 1.4rem;
 }

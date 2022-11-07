@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../assests/images/about-us.png";
+import aboutImg from "../../assests/images/recycle-about_us.jpeg";
 import CountUp from "react-countup";
-import "./about.css";
+
 
 const AboutUs = () => {
   return (
@@ -20,12 +20,16 @@ const AboutUs = () => {
             <div className="about__content">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                  optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                  obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                  nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                  tenetur error, harum nesciunt ipsum debitis quas aliquid.
               </p>
 
-              <div className="about__counter">
+              {/* <div className="about__counter">
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <span className="counter">
@@ -61,7 +65,7 @@ const AboutUs = () => {
                     <p className="counter__title">Categories Served</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

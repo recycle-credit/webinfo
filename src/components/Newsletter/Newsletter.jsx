@@ -9,10 +9,10 @@ const Newsletter = () => {
         <Row>
           <Col lg="12" className="text-center">
             <h2 className="mb-4">Subscribe Our Newsletter</h2>
-            <div className="subscribe">
-              <input type="text" placeholder="Email" />
-              <button className="btn">Subscribe</button>
-            </div>
+            <form className="subscribe" >
+              <input type="email" placeholder="Email" style={{ backgroundColor: '#fff', color: '#000'}}/>
+              <button className="btn" >Subscribe</button>
+            </form>
           </Col>
         </Row>
       </Container>
